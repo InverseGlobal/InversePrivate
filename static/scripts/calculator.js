@@ -1,13 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
   const appsList = [
     {
-      name: "! Request A Game [UPDATED]",
-      link: "https://form.jotform.com/232936642594062",
-      image: "/images/icons/request.webp",
-      categories: ['all'],
-      error: false
-    },
-    {
       name: "Dynast.io",
       link: "https://dynast.io",
       image: "/images/icons/dynast-io.png",
