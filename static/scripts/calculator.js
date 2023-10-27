@@ -590,7 +590,7 @@ document.addEventListener('DOMContentLoaded', () => {
   },
   {
     name: "Basketball Stars",
-    link: "https://html5.gamedistribution.com/69d78d071f704fa183d75b4114ae40ec/",
+    link: "https://galaxy-j388.vercel.app/misc/basketball-stars/",
     image: "/images/icons/basketball-stars.webp",
     categories: ['all'],
     error: false
