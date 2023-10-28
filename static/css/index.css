@@ -5,9 +5,7 @@ body {
 .box{
     margin-right:auto;
     margin-left:auto;
-    width:100px; /* Set this property to whatever you like */
 }
 #searchbar {
-    margin: 0 auto;
     display: block;
 }
