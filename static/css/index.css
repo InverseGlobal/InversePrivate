@@ -1,3 +1,13 @@
 body {
     background-image: url(https://media.giphy.com/media/b29IZK1dP4aWs/giphy.gif)
   }
+
+.box{
+    margin-right:auto;
+    margin-left:auto;
+    width:100px; /* Set this property to whatever you like */
+}
+#searchbar {
+    margin: 0 auto;
+    display: block;
+}
