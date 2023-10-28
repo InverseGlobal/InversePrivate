@@ -23,6 +23,8 @@ const routes = [
   { path: '/tabs', file: 'tabs.html' },
   { path: '/go', file: 'go.html' },
   { path: '/loading', file: 'loading.html' },
+    { path: '/books', file: 'book.html' },
+
 ];
 
 app.get('/edu/*', cors({ origin: false }), async (req, res, next) => {
