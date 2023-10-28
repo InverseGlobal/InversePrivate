@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       name: "Scratch",
       link: "https://scratch.mit.edu",
-      image: "/images/icons/scratch.jpg",
+      image: "/images/icons/scratch.png",
       categories: ["all", "social", "game", "media", ""],
       error: false
     },
@@ -160,7 +160,7 @@ document.addEventListener('DOMContentLoaded', () => {
       image: "/images/icons/apps/spotify.png",
       categories: ["all", "media"],
       say: "Spotify is currently not working on the proxy.",
-      error: true
+      error: false
     },
     {
       name: "Telegram",
