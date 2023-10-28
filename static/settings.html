@@ -111,59 +111,15 @@
          </select>
       </div>
        <div class="settings-card">
-           <h3>Review!</h3>
-           <div class="rating">
-         <i class="rating__star far fa-star"></i>
-         <i class="rating__star far fa-star"></i>
-         <i class="rating__star far fa-star"></i>
-         <i class="rating__star far fa-star"></i>
-         <i class="rating__star far fa-star"></i>
-           </div>
-           <button class="key-button" id="5stars">Submit!</button>
+           <h3>Help</h3>
+    <a class="navbar-link" href="/./docs"><i class="fa-solid fa-table navbar-icon"></i>Docs</a>          
+           
    </div>
    </div>
 </div>
 
 
      
-<script>
-
-const ratingStars = [...document.getElementsByClassName("rating__star")];
-
-function executeRating(stars) {
-  const starClassActive = "rating__star fas fa-star";
-  const starClassInactive = "rating__star far fa-star";
-  const starsLength = stars.length;
-  let i;
-  stars.map((star) => {
-    star.onclick = () => {
-      i = stars.indexOf(star);
-
-      if (star.className===starClassInactive) {
-        for (i; i >= 0; --i) stars[i].className = starClassActive;
-      } else {
-        for (i; i < starsLength; ++i) stars[i].className = starClassInactive;
-      }
-    };
-  });
-}
-executeRating(ratingStars);
-    
-      5stars.getElementById('click',(e) -> {
-          alert("Thank you for submiting a review! XD");
-      });
-
-</script>
-<style>
-    .rating {
-   width: 180px;
-}
-
-.rating__star {
-   cursor: pointer;
-   color: #dabd18b2;
-}
-</style>
 <script src="/scripts/settings.js"></script>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-WKJQ5QHQTJ"></script>
