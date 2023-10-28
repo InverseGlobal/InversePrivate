@@ -379,13 +379,6 @@ document.addEventListener('DOMContentLoaded', () => {
       error: false
     },
     {
-      name: "FNAF 2 (Scratch)",
-      link: "https://scratch.mit.edu/projects/114701024/embed",
-      image: "/images/icons/FNAF2.webp",
-      categories: ['all'],
-      error: false
-    },
-    {
       name: "FNAF 3",
       link: "https://sussygamedeveloper.github.io/fnaf3/",
       image: "/images/icons/FNAF3.webp",
@@ -780,7 +773,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       name: "FNAF 2 (Scratch)",
       link: "https://scratch.mit.edu/projects/469219637/embed/",
-      image: "/images/icons/fnaf2.webp",
+      image: "/images/icons/FNAF2.webp",
       categories: ["all"],
       error: false
     },
