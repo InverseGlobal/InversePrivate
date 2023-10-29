@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="shortcut icon" id="dynamic-favicon" href="favicon.png">
     <title id="dynamic-title">Classes</title>
+    <script src="scripts/cookie.js"></script>
     <!-- Site Stylesheets-->
   <link rel="stylesheet" href="/css/m.css">
   <link rel="stylesheet" href="/css/home.css">
@@ -33,7 +34,20 @@
        </div></div></div></div>
        
     <!-- Nav Bar End-->
-
+<div id="cookieNotice" class="light display-right" style="display: block;">
+      <div id="closeIcon" style="display: none;"></div>
+      <div class="title-wrap">
+        <h4>Cookie Consent</h4>
+      </div>
+      <div class="content-wrap">
+        <div class="msg-wrap">
+          <p>We use cookies! This website uses cookies or similar technologies to enhance your browsing experience and provide personalized recommendations. By continuing to use our website, you agree to our <a style="color: grey;" href="cookieconsentpolicy.html">Cookie Policy</a></p>
+          <div class="btn-wrap">
+            <button class="popupbutton" onclick="acceptCookieConsent();">Accept</button>
+          </div>
+        </div>
+      </div>
+    </div>
     <div id="particles-js">
         <script rel="preload" src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
         <div class="main">
