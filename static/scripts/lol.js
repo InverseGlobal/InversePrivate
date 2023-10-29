@@ -7,6 +7,13 @@ document.addEventListener('DOMContentLoaded', () => {
       categories: ["all"],
       error: false
     },
+    {
+      name: "Kahoot Cheats",
+      link: "https://github.com/ChocoFloco/Kahoot_Hack/blob/main/README.md",
+      image: "/images/icons/Kahoot.jpeg",
+      categories: ["all"],
+      error: false
+    },
   ];
     
   
