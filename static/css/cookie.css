@@ -71,6 +71,15 @@
     flex-wrap: wrap;
     color: #000;
   }
+  
+footer {
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  bottom: 5px;
+  font-family: Verdana;
+  font-size: 14px;
+}
 
   .popupbutton {
     background-color: white;
