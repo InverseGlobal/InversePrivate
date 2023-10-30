@@ -1,5 +1,12 @@
 document.addEventListener('DOMContentLoaded', () => {
   const appsList = [
+        {
+      name: "9Anime",
+      link: "https://9animetv.to/",
+      image: "/images/icons/apps/9anime.png",
+      categories: ["all", "media", "stream"],
+      error: false
+    },
     {
       name: "Amazon",
       link: "https://amazon.com/",
