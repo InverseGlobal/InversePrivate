@@ -1,6 +1,13 @@
 document.addEventListener('DOMContentLoaded', () => {
   const appsList = [
     {
+      name: "Request A Game",
+      link: "https://forms.gle/YTXweZCCyFn5NSGF6",
+      image: "/images/icons/request.png",
+      categories: ['all'],
+      error: false
+    },
+    {
       name: "Dynast.io",
       link: "https://dynast.io",
       image: "/images/icons/dynast-io.png",
