@@ -254,6 +254,13 @@ document.addEventListener('DOMContentLoaded', () => {
       categories: ["all", "media", "stream"],
       error: false
     },
+     {
+      name: "Dvadi",
+      link: "https://dvadi.com/",
+      image: "/images/icons/apps/dvadi.png",
+      categories: ["all", "game"],
+      error: false
+    },
   ];
     
   
