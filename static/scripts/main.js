@@ -46,6 +46,12 @@ document.addEventListener("DOMContentLoaded", function(event) {
       localStorage.setItem("name", "Dashboard | Khan Academy");
       localStorage.setItem("icon", "/images/favicon/khan.png");
   }
+  else if (selectedValue === 'Amplify') {
+        icon.setAttribute('href', '/images/favicon/amp.png');
+        name.textContent = 'Amplify';
+        localStorage.setItem("name", "Amplify");
+        localStorage.setItem("icon", "/images/favicon/amp.png");
+    }
   var themeid = localStorage.getItem("theme");
   //Loads theme
   themeEle = document.createElement("link");
