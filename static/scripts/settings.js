@@ -62,6 +62,12 @@ function updateHeadSection(selectedValue) {
         localStorage.setItem("name", "Classes");
         localStorage.setItem("icon", "/images/favicon/classroom.png");
     }
+  else if (selectedValue === 'Amplify') {
+        icon.setAttribute('href', '/images/favicon/amp.png');
+        name.textContent = 'Amplify';
+        localStorage.setItem("name", "Amplify");
+        localStorage.setItem("icon", "/images/favicon/amp.png");
+    }
 }
 
 // Redirect
