@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
   const appsList = [
     {
-      name: "Request A Game",
-      link: "https://forms.gle/YTXweZCCyFn5NSGF6",
+      name: "Request A Game V2",
+      link: "https://docs.google.com/forms/d/e/1FAIpQLSecAqF0tq21Ofnu-gF5qUmZkH-Tfuu5ThlY-4KsRAok11mM-g/viewform?usp=sf_link",
       image: "/images/icons/request.png",
       categories: ['all'],
       error: false
