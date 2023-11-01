@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
      {
       name: "Rocket League",
-      link: "https://inverseglobal.vercel.app/reviews/hvtrs8%2F-pna%7B.eedopcgnmw%2Ccmm-gcmgs%3Dgcmg-kd%3F9%60c%60f7b6-a440%2F4293-%3B33c%2Fa7a0a3ff9ac0%26nalg%3Fel_WS%24aqsgt%2Fif%3D21%5D1gd48d62-c302%2F4c82-%60e33%2Fa480c100f3b0",
+      link: "https://play.geforcenow.com/games?game-id=9bcbf5b4-c460-4091-931c-a5a2a1fd9cc2&lang=en_US&asset-id=01_1ed68f60-a322-4a80-be13-a682c302f1b2",
       image: "/images/icons/rocketleague.webp",
       categories: ['all'],
       error: false
