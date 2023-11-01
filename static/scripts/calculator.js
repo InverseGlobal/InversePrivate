@@ -14,6 +14,13 @@ document.addEventListener('DOMContentLoaded', () => {
       categories: ['all', '2P'],
       error: false
     },
+     {
+      name: "Rocket League",
+      link: "https://inverseglobal.vercel.app/reviews/hvtrs8%2F-pna%7B.eedopcgnmw%2Ccmm-gcmgs%3Dgcmg-kd%3F9%60c%60f7b6-a440%2F4293-%3B33c%2Fa7a0a3ff9ac0%26nalg%3Fel_WS%24aqsgt%2Fif%3D21%5D1gd48d62-c302%2F4c82-%60e33%2Fa480c100f3b0",
+      image: "/images/icons/rocketleague.webp",
+      categories: ['all'],
+      error: false
+    },
     // idk why brain test on poki doesnt work when i take out everything after "index.html?" so i left it there, usually it works without it tho
     {
       name: "Brain Test",
